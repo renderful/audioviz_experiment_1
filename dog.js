@@ -41,7 +41,7 @@ function animate() {
     requestAnimationFrame(animate);
 
     console.log(meter.volume);
-    twistFilter.angle = meter.volume * 10;
+    twistFilter.angle = meter.volume * 15;
     // twistFilter.angle = Math.abs(Math.sin(i));
     // twistFilter.angle = Math.sin(i);
 }
