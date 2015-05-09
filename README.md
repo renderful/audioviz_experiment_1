@@ -1,2 +1,2 @@
 # audioviz_experiment_1
-First experiment with Audio Visualizer WebGL + WebAudio
+First experiment making an haudio visualizer WebGL + WebAudio
