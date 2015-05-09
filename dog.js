@@ -22,11 +22,11 @@ bloomFilter.blur = 100;
 var pixelateFilter = new PIXI.filters.PixelateFilter();
 var twistFilter = new PIXI.filters.TwistFilter();
 twistFilter.angle = 2;
-twistFilter.offset.x = 0.2;
-twistFilter.offset.x = 0.4;
+twistFilter.offset.x = 0.3;
+twistFilter.offset.y = 0.6;
  
 // set the filter
-stage.filters = [bloomFilter, pixelateFilter, twistFilter];
+stage.filters = [bloomFilter, twistFilter];
 // stage.filters = [bloomFilter];
 
 stage.addChild(dog);
