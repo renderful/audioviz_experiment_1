@@ -22,6 +22,8 @@ bloomFilter.blur = 100;
 var pixelateFilter = new PIXI.filters.PixelateFilter();
 var twistFilter = new PIXI.filters.TwistFilter();
 twistFilter.angle = 2;
+twistFilter.offset.x = 0.2;
+twistFilter.offset.x = 0.4;
  
 // set the filter
 stage.filters = [bloomFilter, pixelateFilter, twistFilter];
